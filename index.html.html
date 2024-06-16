@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cars Information</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+            padding: 10px 0;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        .container {
+            padding: 20px;
+        }
+        .car {
+            background-color: #fff;
+            margin-bottom: 20px;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .car img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Cars Information</h1>
+</header>
+
+<nav>
+    <a href="#suv">SUV</a>
+    <a href="#sedan">Sedan</a>
+    <a href="#truck">Truck</a>
+    <a href="#sports">Sports Car</a>
+</nav>
+
+<div class="container">
+    <div class="car" id="suv">
+        <h2>SUV</h2>
+        <img src="https://www.autocar.co.uk/sites/autocar.co.uk/files/slideshow_image/q8-a.jpg" alt="SUV">
+        <p>SUVs are known for their high driving position, spacious interiors, and off-road capabilities. They are great for families and adventurers.</p>
+    </div>
+
+    <div class="car" id="sedan">
+        <h2>Sedan</h2>
+        <img src="https://th.bing.com/th/id/R.92d88c35166ab73807ced47f4ab066af?rik=KhgWzDfCb1Nf1g&riu=http%3a%2f%2fwww.conceptcarz.com%2fimages%2fBMW%2f2015-BMW_M3-Sedan-01.jpg&ehk=JKrXKeAgOro0WKxHgfCMvsVMdq6J1e8h84czMt4Jjj8%3d&risl=&pid=ImgRaw&r=0" alt="Sedan">
+        <p>Sedans are popular for their comfortable ride, fuel efficiency, and sleek design. They are ideal for city driving and long road trips.</p>
+    </div>
+
+    <div class="car" id="truck">
+        <h2>Truck</h2>
+        <img src="https://static0.hotcarsimages.com/wordpress/wp-content/uploads/2020/06/Vintage-trucks-1.jpg" alt="Truck">
+        <p>Trucks are powerful vehicles designed for hauling and towing. They are perfect for work and heavy-duty tasks.</p>
+    </div>
+
+    <div class="car" id="sports">
+        <h2>Sports Car</h2>
+        <img src="https://i.pinimg.com/originals/24/b0/6e/24b06e3493410569882a7f157a24bef4.jpg" alt="Sports Car">
+        <p>Sports cars are built for speed and performance. They offer thrilling driving experiences and are known for their stylish looks.</p>
+    </div>
+</div>
+
+</body>
+</html>
